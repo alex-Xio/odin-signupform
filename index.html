@@ -32,33 +32,40 @@
 				<fieldset>
 					<h2>Let's do this!</h2>
 
-					<label for="firstname">First name</label>
-					<input
-						type="text"
-						name="user_firstname"
-						id="firstname"
-						maxlength="20"
-						value="Thor" />
+					<div class="fields">
+						<div id="leftfields">
+							<label for="firstname">First name</label>
+							<input
+								type="text"
+								name="user_firstname"
+								id="firstname"
+								maxlength="20"
+								value="Thor" />
 
-					<label for="lastname">Last name</label>
-					<input
-						type="text"
-						name="user_lastname"
-						id="lastname"
-						maxlength="20"
-						value="Odinson" />
-					<label for="email">Email</label>
-					<input type="text" name="user_email" id="email" />
-					<label for="phonenumber">Phone number</label>
-					<input type="text" name="user_phonenumber" id="phonenumber" />
-					<label for="password">Password</label>
-					<input type="password" name="user_password" id="password" />
+							<label for="email">Email</label>
+							<input type="text" name="user_email" id="email" />
 
-					<label for="confirmpassword">Confirm password</label>
-					<input
-						type="password"
-						name="user_passwordconfirmation"
-						id="password" />
+							<label for="password">Password</label>
+							<input type="password" name="user_password" id="password" />
+						</div>
+						<div id="rightfields">
+							<label for="lastname">Last name</label>
+							<input
+								type="text"
+								name="user_lastname"
+								id="lastname"
+								maxlength="20"
+								value="Odinson" />
+							<label for="phonenumber">Phone number</label>
+							<input type="text" name="user_phonenumber" id="phonenumber" />
+
+							<label for="confirmpassword">Confirm password</label>
+							<input
+								type="password"
+								name="user_passwordconfirmation"
+								id="password" />
+						</div>
+					</div>
 				</fieldset>
 				<button type="submit" id="submitbutton">Create Account</button>
 			</form>
