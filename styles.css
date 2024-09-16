@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'NorseBold';
+	src:
+		url('fonts/norse-bold-webfont.woff') format('woff'),
+		url('fonts/norse-bold-webfont.woff2') format('woff2');
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f9fafb;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+#leftside {
+	background-image: url('images/halie-west-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100% auto;
+	width: 40vw;
+	min-width: 40rem;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logowrapper {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	height: 10em;
+	display: inline;
+}
+#logo {
+	display: flex;
+	align-items: center;
+}
+#logotext {
+	font-family: NorseBold, Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 6rem;
+	margin: 0;
+}
+.credit {
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
+a {
+	color: inherit;
+}
