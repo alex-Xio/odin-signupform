@@ -40,13 +40,19 @@
 								name="user_firstname"
 								id="firstname"
 								maxlength="20"
+								required
 								value="Thor" />
 
 							<label for="email">Email</label>
-							<input type="text" name="user_email" id="email" />
+							<input type="text" name="user_email" id="email" required />
 
 							<label for="password">Password</label>
-							<input type="password" name="user_password" id="password" />
+							<input
+								type="password"
+								name="user_password"
+								id="password"
+								minlength="8"
+								required />
 						</div>
 						<div class="fieldcolumn">
 							<label for="lastname">Last name</label>
@@ -55,6 +61,7 @@
 								name="user_lastname"
 								id="lastname"
 								maxlength="20"
+								required
 								value="Odinson" />
 							<label for="phonenumber">Phone number</label>
 							<input type="text" name="user_phonenumber" id="phonenumber" />
@@ -63,7 +70,8 @@
 							<input
 								type="password"
 								name="user_passwordconfirmation"
-								id="password" />
+								id="password"
+								required />
 						</div>
 					</div>
 				</fieldset>
