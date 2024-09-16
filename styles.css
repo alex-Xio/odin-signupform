@@ -60,7 +60,7 @@ img {
 	position: absolute;
 	bottom: 0;
 }
-a {
+.credit a {
 	color: inherit;
 }
 #descriptionwrapper {
@@ -131,4 +131,15 @@ button {
 	height: 3.4em;
 	margin-top: 3%;
 	margin-left: 5%;
+}
+
+#logintext {
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+#logintext a {
+	color: rgb(89, 109, 72);
+	font-weight: bold;
+	text-decoration: none;
 }
