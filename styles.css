@@ -121,3 +121,14 @@ label {
 	font-size: 0.8em;
 	margin-top: 0.7rem;
 }
+button {
+	border: 0;
+	border-radius: 6px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(89, 109, 72);
+	width: 16em;
+	height: 3.4em;
+	margin-top: 3%;
+	margin-left: 5%;
+}
