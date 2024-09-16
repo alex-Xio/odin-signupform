@@ -5,5 +5,57 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sign-up Form</title>
 	</head>
-	<body></body>
+	<body>
+		<div id="leftside">
+			<div id="logowrapper">
+				<img src="images/odin-lined.png" alt="Logo" />
+				<p class="credit">
+					Photo by
+					<a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+					<a href="https://unsplash.com/">Unsplash</a>
+				</p>
+			</div>
+		</div>
+		<div id="rightside">
+			<h2 id="description">
+				This is not a real online service! You know you need something like this
+				in your life to help you realize your deepest dreams. <br />Sign up
+				<i>now</i> to get started.<br /><br />You <i>know</i> you want to.
+			</h2>
+			<form action="#" method="get">
+				<fieldset>
+					<legend>Let's do this!</legend>
+
+					<label for="firstname">First name</label>
+					<input
+						type="text"
+						name="user_firstname"
+						id="firstname"
+						maxlength="20"
+						value="Thor" />
+
+					<label for="lastname">Last name</label>
+					<input
+						type="text"
+						name="user_lastname"
+						id="lastname"
+						maxlength="20"
+						value="Odinson" />
+					<label for="email">Email</label>
+					<input type="text" name="user_email" id="email" />
+					<label for="phonenumber">Phone number</label>
+					<input type="text" name="user_phonenumber" id="phonenumber" />
+					<label for="password">Password</label>
+					<input type="password" name="user_password" id="password" />
+
+					<label for="confirmpassword">Password</label>
+					<input
+						type="password"
+						name="user_passwordconfirmation"
+						id="password" />
+				</fieldset>
+				<button type="submit" id="submitbutton">Create Account</button>
+			</form>
+		</div>
+	</body>
 </html>
